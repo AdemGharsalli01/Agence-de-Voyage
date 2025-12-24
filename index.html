@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Dream | Agence de Voyage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="#" class="logo">TRAVEL DREAM</a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#circuits">Circuits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Explorez le Monde</h1>
+            <p>Des voyages sur mesure pour des souvenirs inoubliables.</p>
+            <a href="#destinations" class="btn-main">Voir les offres</a>
+        </div>
+    </header>
+
+    <section id="destinations" class="container">
+        <h2 class="section-title">Nos Destinations Phares</h2>
+        <div class="grid-destinations">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400" alt="Bali">
+                <div class="card-body">
+                    <h3>Bali, Indonésie</h3>
+                    <p>Découvrez les temples sacrés et les rizières en terrasse.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400" alt="Paris">
+                <div class="card-body">
+                    <h3>Paris, France</h3>
+                    <p>La ville lumière vous attend pour un séjour romantique.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400" alt="Venise">
+                <div class="card-body">
+                    <h3>Venise, Italie</h3>
+                    <p>Promenez-vous en gondole sur les canaux historiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="circuits" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Circuits Organisés</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <input type="radio" name="acc" id="acc1" checked>
+                    <label for="acc1">Safari Kenya - 10 Jours</label>
+                    <div class="content">
+                        <p>Un voyage au cœur de la savane pour observer les "Big Five". Hébergement en lodge de luxe inclus.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <input type="radio" name="acc" id="acc2">
+                    <label for="acc2">Croisière Méditerranée - 7 Jours</label>
+                    <div class="content">
+                        <p>Visitez l'Espagne, l'Italie et la Grèce à bord d'un navire 5 étoiles. Pension complète.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Contactez-nous</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nom complet" required>
+            <input type="email" placeholder="Email" required>
+            <select>
+                <option>Choisir une région...</option>
+                <option>Europe</option>
+                <option>Asie</option>
+            </select>
+            <textarea rows="5" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer la demande</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Dream. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
